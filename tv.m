@@ -1,4 +1,4 @@
-function [y, dy] = fit3(f, alpha)
+function [y, dy] = tv(f, alpha)
 
 %% setting up coefficients
 n=max(size(f))-2;
